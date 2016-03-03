@@ -119,7 +119,7 @@ puts "Name: #{stefani[0]}, Age: #{stefani[1]}, Occupation: #{stefani[2]}"
 
 Nice! But even this is a bit much. The fact that we have to repeat so much code is a pretty good sign that we need a printer method.
 
-So let's do that! Let's make a method, `#print_business_card`, that accepts an array representing a person, and then prints out their business card. First, we'll create the basic method signature:
+So let's do that! Let's make a method, `print_business_card`, that accepts an array representing a person, and then prints out their business card. First, we'll create the basic method signature:
 
 ```ruby
 def print_business_card(person)
@@ -140,7 +140,7 @@ Something is missing, though. Our people need a phone number. Let's change our p
 bob = ["Bob", 46, "Juggler", "555-555-5555"]
 ```
 
-And in our `#print_business_card` method, let's print that out on a second line:
+And in our `print_business_card` method, let's print that out on a second line:
 
 ```ruby
 def print_business_card(person)
@@ -170,9 +170,9 @@ String interpolation is basically a super power. And like any good super power, 
 
 ## Instructions
 
-1. Define a method, `#display_rainbow`, in `lib/display_rainbow.rb`
-2. `#display_rainbow` must accept an argument, an array of colors. The tests call `#display_rainbow` with the following evocation: `display_colors(['red', 'orange', 'yellow', 'green', 'blue', 'indigo', 'violet'])`.
-2. `#display_rainbow` should print out the colors of the rainbow in the
+1. Define a method, `display_rainbow`, in `lib/display_rainbow.rb`
+2. `display_rainbow` must accept an argument, an array of colors. The tests call `#display_rainbow` with the following evocation: `display_colors(['red', 'orange', 'yellow', 'green', 'blue', 'indigo', 'violet'])`.
+2. `display_rainbow` should print out the colors of the rainbow in the
    following format: `"R: red, O: orange, Y: yellow, G: green, B: blue, I: indigo, V: violet"` by reading from the array passed in as an argument. 
 3. It should accept an array containing the colors as an argument
 4. Run `learn` locally until you pass
@@ -180,7 +180,7 @@ String interpolation is basically a super power. And like any good super power, 
 
 `colors` will be passed in as: `['red', 'orange', 'yellow', 'green', 'blue', 'indigo', 'violet']`
 
-You must read from the `colors` argument and you can hardcode the order, there is no need to use `#each` or any loop. For example, given `letters = ["b","a","c"]` to print them in alphabetical order without iteration you could:
+You must read from the `colors` argument and you can hardcode the order, there is no need to use `each` or any loop. For example, given `letters = ["b","a","c"]` to print them in alphabetical order without iteration you could:
 
 ```ruby
 letters = ["b","a","c"]
@@ -190,3 +190,5 @@ puts "The third letter in the alphabet is: #{letters[2]}"
 ```
 
 <p data-visibility='hidden'>View <a href='https://learn.co/lessons/interpolation-super-power' title='Interpolation Super Power'>Interpolation Super Power</a> on Learn.co and start learning to code for free.</p>
+
+<p data-visibility='hidden'>View <a href='https://learn.co/lessons/interpolation-super-power'>Interpolation Super Power</a> on Learn.co and start learning to code for free.</p>
