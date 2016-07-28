@@ -181,6 +181,8 @@ String interpolation is basically a super power. And like any good super power, 
 
 You must read from the `colors` argument and you can hardcode the order, there is no need to use `#each` or any loop. For example, given `letters = ["b","a","c"]` to print them in alphabetical order without iteration you could:
 
+just a test please ignore
+
 ```ruby
 letters = ["b","a","c"]
 puts "The first letter in the alphabet is: #{letters[1]}"
@@ -189,3 +191,5 @@ puts "The third letter in the alphabet is: #{letters[2]}"
 ```
 
 <p data-visibility='hidden'>View <a href='https://learn.co/lessons/interpolation-super-power' title='Interpolation Super Power'>Interpolation Super Power</a> on Learn.co and start learning to code for free.</p>
+
+<p class='util--hide'>View <a href='https://learn.co/lessons/interpolation-super-power'>Interpolation Super Power</a> on Learn.co and start learning to code for free.</p>
